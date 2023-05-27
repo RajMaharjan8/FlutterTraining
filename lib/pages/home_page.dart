@@ -5,11 +5,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double days = 30.2;
-    final String name = 'RAJ';
+    const double days = 30.2;
+    const String name = 'RAJ';
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Ninja'),
+        title: const Text('Flutter Ninja'),
       ),
       body: Center(
           child: Container(
